@@ -1,0 +1,33 @@
+.card {
+  width: 7rem;
+  height: 4rem;
+  border: 2px solid rgb(176, 207, 253);
+  border-radius: 5%;
+  margin: 40px;
+}
+
+.card-active {
+  width: 7rem;
+  height: 4rem;
+  border: 2px solid rgb(241, 88, 160);
+  border-radius: 5%;
+  margin: 40px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: centre;
+}
+
+.string {
+  margin: 59px;
+  font-size: 25px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(75, 71, 71);
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
